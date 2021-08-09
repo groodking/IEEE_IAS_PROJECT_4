@@ -79,6 +79,10 @@ ul{
     padding-top: 145px !important;
   }
 
+  .carousel-item{
+    transition: transform 1s ease, opacity .5s ease-out !important;
+  }
+
   @media(max-width:768px){
       .text-block{
     padding-top: 60px !important;

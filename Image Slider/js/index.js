@@ -1,8 +1,8 @@
-// $(document).ready( function() {
-  $('#myCarousel').carousel({
-    interval:   1000
-});
-
+$(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 2000
+    })
+  });
 // var clickEvent = false;
 // $('#myCarousel').on('click', '.nav a', function() {
 //     clickEvent = true;
