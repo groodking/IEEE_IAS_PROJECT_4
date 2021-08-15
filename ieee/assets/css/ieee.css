@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+@media (max-width: 991px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .mobile-top-fix {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .mobile-bottom-fix {
+    margin-bottom: 30px;
+  }
+  .mobile-bottom-fix-big {
+    margin-bottom: 60px;
+  }
+}
+
+#about {
+  margin-top: 120px;
+}
+
+.about-us {
+  background-image: url(../images/about-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 140px 0px 120px 0px;
+}
+
+.about-us .left-image {
+  margin-right: 45px;
+}
+
+.about-us .services .item {
+  margin-bottom: 30px;
+}
+
+.about-us .services .item .icon {
+  float: left;
+  margin-right: 25px;
+}
+
+.about-us .services .item .icon img {
+  max-width: 70px;
+}
+
+.about-us .services .item h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.about-us .services .item p {
+  color: #fff;
+}
