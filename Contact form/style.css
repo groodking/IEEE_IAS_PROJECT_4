@@ -35,7 +35,7 @@ a:hover {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url("../images/bg-registration-form-7.jpg") no-repeat;
+  background: url("bg-registration-form-7.jpg") no-repeat;
   background-size: cover; }
 
 .inner {
